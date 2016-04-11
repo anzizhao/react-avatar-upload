@@ -1,0 +1,28 @@
+{
+  "name": "react-avatar-upload",
+  "version": "1.0.0",
+  "description": "头像上传模块",
+  "main": "index.js",
+  "scripts": {
+    "demo": "watchify -t reactify app.js -o bundle.js -v"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/anzizhao/react-avatar-upload.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/anzizhao/react-avatar-upload/issues"
+  },
+  "homepage": "https://github.com/anzizhao/react-avatar-upload#readme",
+  "dependencies": {
+    "react": "^15.0.1",
+    "react-avatar-editor": "^3.2.1",
+    "react-dom": "^15.0.1",
+    "react-dropzone": "^3.4.0",
+    "reactify": "^1.1.1",
+    "watchify": "^3.7.0",
+    "whatwg-fetch": "^0.11.0"
+  }
+}
